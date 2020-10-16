@@ -23,7 +23,7 @@
 }
 
 h1{
-    font-size: 150px;
+    font-size: 140px;
     font-weight: 500;
     text-transform: uppercase;
     color: #485054;
@@ -64,15 +64,14 @@ h1{
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 553px){
     h1 {
-        font-size: 50px;
+        font-size: 80px;
     }
 
     .decompte-container .decompte {
         width: 175px;
         height: 175px;
-        margin: 25px 50px;
     }
     .decompte-container .decompte .chiffre {
         font-size: 70px;
@@ -85,13 +84,13 @@ h1{
 
 @media screen and (max-width: 415px){
     h1 {
-        font-size: 50px;
+        font-size: 60px;
     }
 
     .decompte-container .decompte {
         width: 125px;
         height: 125px;
-        margin: 20px 50px;
+        margin: 15px;
     }
     .decompte-container .decompte .chiffre {
         font-size: 40px;
